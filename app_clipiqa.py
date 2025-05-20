@@ -3,19 +3,9 @@
 
 import streamlit as st
 from PIL import Image
-import numpy as np
-
-import time
-import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib.font_manager as fm
-
-import torch
 import torchvision.transforms as transforms
-from PIL import Image
 from torchvision import transforms
 from torchmetrics.multimodal import CLIPImageQualityAssessment
-from transformers import CLIPModel, CLIPProcessor
 
 # 画像前処理
 def trans_image(image):
